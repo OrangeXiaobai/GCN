@@ -1,0 +1,123 @@
+# 动作标签（NTU RGB+D 120）
+ACTION_LABELS = {
+    0: "drink water",  # A1
+    1: "eat meal",  # A2
+    2: "brush teeth",  # A3
+    3: "brush hair",  # A4
+    4: "drop",  # A5
+    5: "pick up",  # A6
+    6: "throw",  # A7
+    7: "sit down",  # A8
+    8: "stand up",  # A9
+    9: "clapping",  # A10
+    10: "reading",  # A11
+    11: "writing",  # A12
+    12: "tear up paper",  # A13
+    13: "put on jacket",  # A14
+    14: "take off jacket",  # A15
+    15: "put on a shoe",  # A16
+    16: "take off a shoe",  # A17
+    17: "put on glasses",  # A18
+    18: "take off glasses",  # A19
+    19: "put on a hat/cap",  # A20
+    20: "take off a hat/cap",  # A21
+    21: "cheer up",  # A22
+    22: "hand waving",  # A23
+    23: "kicking something",  # A24
+    24: "reach into pocket",  # A25
+    25: "hopping",  # A26
+    26: "jump up",  # A27
+    27: "phone call",  # A28
+    28: "play with phone/tablet",  # A29
+    29: "type on a keyboard",  # A30
+    30: "point to something",  # A31
+    31: "taking a selfie",  # A32
+    32: "check time (from watch)",  # A33
+    33: "rub two hands",  # A34
+    34: "nod head/bow",  # A35
+    35: "shake head",  # A36
+    36: "wipe face",  # A37
+    37: "salute",  # A38
+    38: "put palms together",  # A39
+    39: "cross hands in front",  # A40
+    40: "sneeze/cough",  # A41
+    41: "staggering",  # A42
+    42: "falling down",  # A43
+    43: "headache",  # A44
+    44: "chest pain",  # A45
+    45: "back pain",  # A46
+    46: "neck pain",  # A47
+    47: "nausea/vomiting",  # A48
+    48: "fan self",  # A49
+    49: "punch/slap",  # A50
+    50: "kicking",  # A51
+    51: "pushing",  # A52
+    52: "pat on back",  # A53
+    53: "point finger",  # A54
+    54: "hugging",  # A55
+    55: "giving object",  # A56
+    56: "touch pocket",  # A57
+    57: "shaking hands",  # A58
+    58: "walking towards",  # A59
+    59: "walking apart",  # A60
+    60: "put on headphone",  # A61
+    61: "take off headphone",  # A62
+    62: "shoot at basket",  # A63
+    63: "bounce ball",  # A64
+    64: "tennis bat swing",  # A65
+    65: "juggle table tennis ball",  # A66
+    66: "hush",  # A67
+    67: "flick hair",  # A68
+    68: "thumb up",  # A69
+    69: "thumb down",  # A70
+    70: "make OK sign",  # A71
+    71: "make victory sign",  # A72
+    72: "staple book",  # A73
+    73: "counting money",  # A74
+    74: "cutting nails",  # A75
+    75: "cutting paper",  # A76
+    76: "snap fingers",  # A77
+    77: "open bottle",  # A78
+    78: "sniff/smell",  # A79
+    79: "squat down",  # A80
+    80: "toss a coin",  # A81
+    81: "fold paper",  # A82
+    82: "ball up paper",  # A83
+    83: "play magic cube",  # A84
+    84: "apply cream on face",  # A85
+    85: "apply cream on hand",  # A86
+    86: "put on bag",  # A87
+    87: "take off bag",  # A88
+    88: "put object into bag",  # A89
+    89: "take object out of bag",  # A90
+    90: "open a box",  # A91
+    91: "move heavy objects",  # A92
+    92: "shake fist",  # A93
+    93: "throw up cap/hat",  # A94
+    94: "capitulate",  # A95
+    95: "cross arms",  # A96
+    96: "arm circles",  # A97
+    97: "arm swings",  # A98
+    98: "run on the spot",  # A99
+    99: "butt kicks",  # A100
+    100: "cross toe touch",  # A101
+    101: "side kick",  # A102
+    102: "yawn",  # A103
+    103: "stretch oneself",  # A104
+    104: "blow nose",  # A105
+    105: "hit with object",  # A106
+    106: "wield knife",  # A107
+    107: "knock over",  # A108
+    108: "grab stuff",  # A109
+    109: "shoot with gun",  # A110
+    110: "step on foot",  # A111
+    111: "high-five",  # A112
+    112: "cheers and drink",  # A113
+    113: "carry object",  # A114
+    114: "take a photo",  # A115
+    115: "follow",  # A116
+    116: "whisper",  # A117
+    117: "exchange things",  # A118
+    118: "support somebody",  # A119
+    119: "rock-paper-scissors",  # A120
+}

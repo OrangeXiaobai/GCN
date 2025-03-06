@@ -175,14 +175,17 @@ class new_unit_gcn(nn.Module):
         if self.attention:
             se = y.mean(-2)  # N, C, V
             se1 = self.sigmoid(self.conv_sa(se))
-            y = y * se1.unsqueeze(-2) + y
+            # y = y * se1.unsqueeze(-2) + y
+            y = y * se1.unsqueeze(-2) # 修正为仅乘法
             se = y.mean(-1)  # N, C, T
             se1 = self.sigmoid(self.conv_ta(se))
-            y = y * se1.unsqueeze(-1) + y
+            # y = y * se1.unsqueeze(-1) + y
+            y = y * se1.unsqueeze(-1) # 修正为仅乘法
             se = y.mean(-1).mean(-1)  # N, C
             se1 = self.relu(self.fc1c(se))
             se2 = self.sigmoid(self.fc2c(se1))
-            y = y * se2.unsqueeze(-1).unsqueeze(-1) + y
+            # y = y * se2.unsqueeze(-1).unsqueeze(-1) + y
+            y = y * se2.unsqueeze(-1).unsqueeze(-1) # 修正为仅乘法
         return y
 
 class new_TCN_GCN_unit(nn.Module):
