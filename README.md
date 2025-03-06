@@ -201,7 +201,7 @@ python test/showSkeleton.py
 nohup python main.py --config config/nturgbd120-cross-subject/actgcn_1.yaml > /dev/null 2>&1 &
 ```
 
-
+<img src="test/top1.png" alt="skeleton" style="zoom:100%;" />
 
 
 
