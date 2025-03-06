@@ -1,4 +1,10 @@
-# README
+# ACT-GCN：基于注意力增强的CTR-GCN用于动作识别
+
+
+
+仓库：
+
+[OrangeXiaobai/GCN](https://github.com/OrangeXiaobai/GCN)
 
 
 
